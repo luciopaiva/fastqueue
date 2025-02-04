@@ -263,7 +263,7 @@ Tested libraries:
 
 - [Google Closure library](https://github.com/google/closure-library/blob/master/closure/goog/structs/heap.js) - a hugely popular library, but is the worst implementation with respect to performance;
 - [Fast Priority Queue](https://github.com/lemire/FastPriorityQueue.js) - runs comparably fast, but doesn't support inserting keys as well, so its implementation significantly limits what the user is able to achieve with it;
-- [FlatQueue](https://github.com/mourner/flatqueue) and [TinyQueue](https://github.com/mourner/flatqueue) - two very nice queue implementations by Vladimir Agafonkin. They don't support the build method and that's why they're missing this benchmark. FlatQueue performs considerably well for an implementation that is not based on typed arrays.
+- [FlatQueue](https://github.com/mourner/flatqueue) and [TinyQueue](https://github.com/mourner/tinyqueue) - two very nice queue implementations by Vladimir Agafonkin. They don't support the build method and that's why they're missing this benchmark. FlatQueue performs considerably well for an implementation that is not based on typed arrays.
 
 ## Contributing
 
